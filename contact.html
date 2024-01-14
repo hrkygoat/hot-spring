@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name=”viewport” content=”width=device-width,initial-scale=1″> <!--//*レスポンシブデザインでスマホ対応 -->
+<!-- reset.css destyle -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="css/responsive.css" media="screen and (max-width:767px)" >
+<link rel="stylesheet" href="css/style.css" media="screen and (min-width:768px)">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.css" integrity="sha512-rV4fiystTwIvs71MLqeLbKbzosmgDS7VU5Xqk1IwFitAM+Aa9x/8Xil4CW+9DjOvVle2iqg4Ncagsbgu2MWxKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>熊本温泉どんどんの湯</title>
+</head>
+<body id="index">
+
+    <header id="top">
+        <h1><a href="index.html"><img src="img/logo.png" alt="タイトル"></a></h1>
+        
+        <nav class="navigation">
+            <ul>
+                <li><a href="contact.html">お問い合わせ</a></li>
+                <li><a href="map.html">アクセス</a></li>
+                <li><a href="news.html">施設紹介</a></li>
+                <li><a href="index.html">ホーム</a></li>
+            </ul>
+        </nav>
+
+        <div class="hamburger-menu">
+            <input type="checkbox" id="menu-btn-check">
+                <label for="menu-btn-check" class="menu-btn"><span></span></label>
+            <div class="menu-content">
+                <ul>
+                    <li>
+                        <a href="index.html">ホーム</a>
+                    </li>
+                    <li>
+                        <a href="news.html">施設紹介</a>
+                    </li>
+                    <li>
+                        <a href="map.html">アクセス</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">お問い合わせ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="navpage">
+        <img src="img/background.jpg" alt="..." class="scrollanime fadeInDown" style="width: 100%;">
+    </div>
+
+
+    <div id="contents">
+
+        <div id="main" class="contact scrollanime updown">
+            <article class="contact">
+                <p style="font-size: 2em; text-align: center; margin: 15px 0;">お問い合わせ</p>
+                <p>このポートフォリオサイトに関するご質問やご希望など、お気軽にお問い合わせください。</p>
+                <ul>
+                  <li>必要事項を記入し、「確認する」をクリックしてください。</li>
+                  <li>ご記入いただいた個人情報は、お問い合わせの回答以外には使用いたしません。</li>
+                </ul>
+              <form action="#">
+                <p>お名前（必須）<br>
+                <label><input type="text" name="name" required style="background-color: white;">
+                  </label></p>
+                <p>お名前　ふりがな　必須）<br>
+                <label><input type="text" name="name" required style="background-color: white;">
+                  </label></p>
+                  <p>メールアドレス<br>
+                  <label><input type="email" name="email" required style="background-color: white;"></label></p>
+                  <p>メールアドレス(確認用)<br>
+                  <label><input type="email" name="email" required style="background-color: white;"></label></p>
+                 <p>コメント<br>
+                   <label><textarea name="message"></textarea> </label></p>
+                  <p style="text-align: center;"><input type="submit" name="確認する" class="btn"> </p>
+              </form>
+            </article>
+        </div>
+
+        <div id="sub" class="scrollanime updown">
+            <section style=" padding: 25px; ">
+                <p style="font-size: 2em; text-align: center; margin: 15px 0;">営業時間</p>
+                <p>9:30～23:00（22:30受付終了）※家族風呂は10:30～21:50</p>
+                <p>火曜定休（祝日の場合は営業）</p>
+                <p></p>
+            </section>
+            <div class="sns">
+                <a href="#"><i class="fa-brands fa-x-twitter" style="font-size: 3em; padding: 10px 20px;"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram" style="font-size: 3em; padding: 10px 20px;"></i></a>
+               <a href="#"> <i class="fa-brands fa-facebook" style="font-size: 3em; padding: 10px 20px;"></i></a>
+                <p>各情報はSNSにも記載されています。</p>
+            </div>
+            <div class="yoyaku">
+                <a href=""><img src="" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <section class="foot">
+            <p>熊本温泉どんどんの湯</p>
+            <p>こちらはポートフォリオ制作用のサイトです。<br>
+                掲載されている内容は架空のものです。</p>
+        </section>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $(function(){
+
+            // セレクタ.bxSlider({
+
+            // });
+
+            $('.slide').bxSlider({
+                auto:true,
+                minSlider: 3,
+                speed: 500,
+                mode: 'fade'
+            });
+        });
+    </script>
+
+    <script>
+$(function () {
+    $(window).scroll(function () {
+        const wHeight = $(window).height();
+        const scrollAmount = $(window).scrollTop();
+        $(".scrollanime").each(function () {
+            const targetPosition = $(this).offset().top;
+            if(scrollAmount > targetPosition - wHeight + 60) {
+                $(this).addClass("fadeInDown");
+            }
+        });
+    });
+});
+    </script>
+
+
+</body>
+</html>
