@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 
 header, nav, #graphic, #contents, footer {
 	width: 100%;
@@ -12,7 +12,7 @@ header{
     height: 50%;
 }
 header h1{
-    text-align: center;
+    text-align: left;
     padding-top: 5px;
     margin: auto;
 }
