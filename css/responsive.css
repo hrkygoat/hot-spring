@@ -329,7 +329,6 @@ h3{
 .root{
     display: block;
     width: 60%;
-    min-width: 480px;
     margin: 0 auto;
     padding: 3%;
 	text-aline: center;
